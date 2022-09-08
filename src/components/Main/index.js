@@ -1,10 +1,10 @@
-import Empresas from '../Empresas';
+import Partners from '../Partners';
 import { Container } from './styles';
 
 export default function Main() {
   return (
     <Container>
-      <Empresas />
+      <Partners />
     </Container>
   );
 }

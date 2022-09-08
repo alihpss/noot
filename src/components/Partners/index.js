@@ -7,7 +7,7 @@ import gamersclub from '../../assets/images/logo/gamersclub.svg';
 import neepHost from '../../assets/images/logo/neep-host.svg';
 import outplay from '../../assets/images/logo/outplay.svg';
 
-export default function Empresas() {
+export default function Partners() {
   return (
     <Container>
       <div id="texto-clientes">
