@@ -22,15 +22,15 @@ export default function Partners() {
       <div id="logo-clientes">
 
         <div className="empresas">
+          <img src={outplay} alt="empresa" />
+        </div>
+
+        <div className="empresas">
+          <img src={enxadahost} alt="empresa" />
+        </div>
+
+        <div className="empresas">
           <img src={alta} alt="empresa" />
-        </div>
-
-        <div className="empresas">
-          <img src={fx} alt="empresa" />
-        </div>
-
-        <div className="empresas">
-          <img src={gamersclub} alt="empresa" />
         </div>
 
         <div className="empresas">
@@ -38,11 +38,11 @@ export default function Partners() {
         </div>
 
         <div className="empresas">
-          <img src={outplay} alt="empresa" />
+          <img src={gamersclub} alt="empresa" />
         </div>
 
         <div className="empresas">
-          <img src={enxadahost} alt="empresa" />
+          <img src={fx} alt="empresa" />
         </div>
 
       </div>

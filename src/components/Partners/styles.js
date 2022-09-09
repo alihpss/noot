@@ -80,7 +80,7 @@ export const Container = styled.div`
         }
 
         #logo-clientes {
-            width: 50%;
+            width: 40%;
             align-content: space-evenly;
 
             .empresas {

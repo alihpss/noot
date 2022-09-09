@@ -53,7 +53,7 @@ export const Container = styled.div`
        .boneco-gta {
             position: relative;
             border: 1px solid ${({ theme }) => theme.colors.lightGreen};
-            width: 7rem;
+            width: 6rem;
             height: 6rem;
             border-radius: 20px 20px  0 20px;
             top: -2rem;
@@ -61,6 +61,7 @@ export const Container = styled.div`
             img {
                 position: absolute;
                 top: -1.9rem;
+                left: -0.3rem;
                 width: 8rem;
             }
        }
@@ -72,7 +73,6 @@ export const Container = styled.div`
     }
 
     #imgs-minecraft {
-        justify-content: flex-start;
 
         .boneco-minecraft {
             position: relative;
