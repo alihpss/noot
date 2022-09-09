@@ -4,12 +4,7 @@ export const Section = styled.section`
     margin-top: 35px;
 `;
 
-export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-`;
-
-export const ContainerTexto = styled.div`
+export const TextContainer = styled.div`
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -18,10 +13,7 @@ export const ContainerTexto = styled.div`
     h2 {
         color: ${({ theme }) => theme.colors.lightGreen};
         text-align: center;
-        text-transform: uppercase;
         max-width: 300px;
-        font-family: 'Anton';
-        font-weight: 300;
         font-size: 32px;
     }
 
@@ -30,4 +22,8 @@ export const ContainerTexto = styled.div`
         text-align: center;
         font-size: 12px;
     }
+`;
+
+export const ServicesContainer = styled.div`
+
 `;

@@ -1,4 +1,6 @@
-import { Container } from './styles';
+import {
+  ClientsLogoContainer, Container, TextContainer, Partner,
+} from './styles';
 
 import alta from '../../assets/images/logo/alta.svg';
 import enxadahost from '../../assets/images/logo/enxadahost.svg';
@@ -10,42 +12,42 @@ import outplay from '../../assets/images/logo/outplay.svg';
 export default function Partners() {
   return (
     <Container>
-      <div id="texto-clientes">
+      <TextContainer>
         <h2>até lorem ipsum, confia.</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al
           iqua. Ut enim ad minim veniam, quis nostrud.
         </p>
-      </div>
+      </TextContainer>
 
-      <div id="logo-clientes">
+      <ClientsLogoContainer>
 
-        <div className="empresas">
+        <Partner>
           <img src={outplay} alt="empresa" />
-        </div>
+        </Partner>
 
-        <div className="empresas">
+        <Partner>
           <img src={enxadahost} alt="empresa" />
-        </div>
+        </Partner>
 
-        <div className="empresas">
+        <Partner>
           <img src={alta} alt="empresa" />
-        </div>
+        </Partner>
 
-        <div className="empresas">
+        <Partner>
           <img src={neepHost} alt="empresa" />
-        </div>
+        </Partner>
 
-        <div className="empresas">
+        <Partner>
           <img src={gamersclub} alt="empresa" />
-        </div>
+        </Partner>
 
-        <div className="empresas">
+        <Partner>
           <img src={fx} alt="empresa" />
-        </div>
+        </Partner>
 
-      </div>
+      </ClientsLogoContainer>
     </Container>
   );
 }
