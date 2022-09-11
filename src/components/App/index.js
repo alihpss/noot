@@ -6,8 +6,8 @@ import { useEffect } from 'react';
 import defaultTheme from '../../assets/styles/themes/default';
 import GlobalStyles from '../../assets/styles/global';
 import Header from '../Header';
-import Introduction from '../Introduction';
 import Main from '../Main';
+import Footer from '../Footer';
 
 function App() {
   useEffect(() => {
@@ -19,8 +19,8 @@ function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles />
       <Header />
-      <Introduction />
       <Main />
+      <Footer />
     </ThemeProvider>
   );
 }

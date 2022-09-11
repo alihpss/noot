@@ -6,6 +6,6 @@ export default styled.div`
     width: 6rem;
     height: 6rem;
     border: 1px solid ${({ theme }) => theme.colors.lightGreen};
-    border-radius: 20px;
+    border-radius: 25px;
     z-index: 1;
 `;

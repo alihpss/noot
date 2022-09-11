@@ -13,14 +13,9 @@ export const Container = styled.div`
     box-shadow:-2px 5px 12px 1px #000000;
 
     @media screen and (max-width:768px){
-        width: 80%;
-        border-radius: 90px;
+        width: 90%;
         padding: 50px;
         justify-content: space-between;
-    }
-
-    @media screen and (max-width:768px){
-        width: 90%;
     }
 `;
 
@@ -35,6 +30,8 @@ export const TextContainer = styled.div`
     h2 {
         width: 8rem;
         font-size: 30px;
+        line-height: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     p {

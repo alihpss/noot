@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin-top: 50px;
+    margin: 50px 0 -2rem 0;
     display: flex;
     justify-content: space-around;
     position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
     img {
         width: 100%;
@@ -23,20 +25,40 @@ export const Content = styled.div`
 
     .gta {
         top: -2rem;
-        img {
+        border-bottom-right-radius: 0;
+        background-color: transparent;
+
+        .boneco-gta {
+            position: relative;
+            width: 7rem;
+            top: -0.9rem;
+            left: 0.5rem;
+        }
+        img + img {
             position: absolute;
-            top: -1.7rem;
-            left: -0.7rem;
-            width: 8rem;
+            top: 3.2rem;
+            left: -12rem;
+            width: 12rem;
+            transform: scaleX(-1);
         }
     }
 
     .minecraft {
         bottom: -2rem;
+        border-top-left-radius: 0;
+        border: none;
 
         img {
             position: absolute;
+            left: 6rem;
+            top: 3rem;
+            width: 11rem;
+        }
+
+        img + img {
+            position: relative;
             top: -0.4rem;
+            left: 0;
             width: 5rem;
         }
     }
@@ -47,7 +69,7 @@ export const Content = styled.div`
             width: 5rem;
             height: 5rem;
 
-            img {
+            img + img {
                 position: absolute;
                 top: -0.4rem;
                 width: 4rem;
@@ -55,10 +77,22 @@ export const Content = styled.div`
 
         }
 
-        .gta img {
+        .gta .boneco-gta {
             position: absolute;
-            top: -0.8rem;
+            top: -0.9rem;
             width: 6rem;
+        }
+    }
+
+    @media screen and (min-width: 1090px) {
+        .gta .linha {
+            width: 20rem;
+            top: 3rem;
+            left: -20rem;
+        }
+
+        .minecraft .linha {
+            width: 17rem;
         }
     }
 `;
@@ -79,11 +113,12 @@ export const ApresentationContainer = styled.div`
     h1 {
         color: ${({ theme }) => theme.colors.lightGreen};
         padding: 3px;
-        line-height: 2.4rem;
+        line-height: 2rem;
     }
 
     p {
         font-size: 12px;
+        ${({ theme }) => theme.colors.cadetBlue}
     }
 
     button {

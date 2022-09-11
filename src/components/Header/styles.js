@@ -17,7 +17,7 @@ export const Container = styled.header`
         img {
             order: -2;
         }
-        button {
+        .button {
             order: -1;
             width: 35%;
         }
@@ -28,21 +28,22 @@ export const Navigation = styled.nav`
     display: flex;
     text-transform: uppercase;
 
-        a {
+        .page-links {
             font-weight: bold;
             text-decoration: none;
             color: ${({ theme }) => theme.colors.whiteColor};
 
+
         }
 
-        a + a {
+        .page-links + .page-links {
             margin-left: 20px;
         }
 
     @media screen and (max-width: 768px) {
         margin-top: 20px;
 
-        a {
+        .page-links {
             font-size: 14px;
         }
     }
