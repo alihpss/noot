@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+* [Título](#Título)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+# Título
+Noot Games challenge
+# descrição-do-projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um projeto feito utilizando React JS, juntamente com styled components para a criação de um layout fictício.
 
-## Available Scripts
+# funcionalidades-e-demonstração-da-aplicação
+Para a criação da página, foi utilizado o react para desenvolver componentes, além disso, também foram utilizadas as bibliotecas styled components para definir os estilos da aplicação e AOS para definir as animações.
 
-In the project directory, you can run:
+Para executar o projeto, você pode clonar o repositório (ou fazer dowload dos arquivos em zip), abrir o terminal e executar o comando yarn start, rodando o projeto no modo de desenvolvimento.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Caso queira testar em qualquer outro dispositivo (para verificar a responsividade), é necessário que este dispositivo esteja conectado na mesma rede que seu computador. Após executar o comando yarn start, o terminal dará informações do endereço local e o endereço IP onde a aplicação está rodando, basta acessar o endereço IP fornecido no terminal a partir do dispositivo desejado, e a aplicação estará visível.
+Se o computador que rodou o comando for um windows, será necessário desativar as configurações de proteção de firewall em redes privadas e em '\Windows Defender Firewall\Aplicativos permitidos' permitir o aplicativo node.js.

@@ -13,6 +13,9 @@ export const Container = styled.div`
         max-width: 450px;
     }
 
+    @media screen and (max-width: 768px) {
+        margin-bottom: 2rem;
+    }
 `;
 
 export const Content = styled.div`
